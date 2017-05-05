@@ -1,0 +1,52 @@
+name: glance
+maintainer: OpenStack Charmers <openstack-charmers@lists.ubuntu.com>
+summary: OpenStack Image Registry and Delivery Service
+description: |
+ The Glance project provides an image registration and discovery service
+ and an image delivery service. These services are used in conjunction
+ by Nova to deliver images from object stores, such as OpenStack's Swift
+ service, to Nova's compute nodes.
+tags:
+  - openstack
+  - storage
+  - misc
+series:
+  - xenial
+  - zesty
+  - trusty
+  - yakkety
+extra-bindings:
+  public:
+  admin:
+  internal:
+provides:
+  nrpe-external-master:
+    interface: nrpe-external-master
+    scope: container
+  image-service:
+    interface: glance
+requires:
+  shared-db:
+    interface: mysql-shared
+  pgsql-db:
+    interface: pgsql
+  amqp:
+    interface: rabbitmq
+    optional: true
+  object-store:
+    interface: swift-proxy
+  identity-service:
+    interface: keystone
+  ceph:
+    interface: ceph-client
+  ha:
+    interface: hacluster
+    scope: container
+  cinder-volume-service:
+    interface: cinder
+  storage-backend:
+    interface: glance-backend
+    scope: container
+peers:
+  cluster:
+    interface: glance-ha

@@ -1,0 +1,6 @@
+commit-sha-1: 62860678f48b306cff36fd327cbfe5fd32136b3c
+commit-short: 6286067
+branch: HEAD
+remote: https://github.com/openstack/charm-lxd
+info-generated: Fri Apr 28 13:29:21 UTC 2017
+note: This file should exist only in a built or released charm artifact (not in the charm source code tree).

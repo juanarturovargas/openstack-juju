@@ -1,0 +1,6 @@
+commit-sha-1: 91713886a672b939214e41c62a391e3ce58036e0
+commit-short: 9171388
+branch: HEAD
+remote: https://github.com/openstack/charm-nova-cloud-controller
+info-generated: Fri Apr 28 17:57:19 UTC 2017
+note: This file should exist only in a built or released charm artifact (not in the charm source code tree).

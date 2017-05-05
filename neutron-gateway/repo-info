@@ -1,0 +1,6 @@
+commit-sha-1: feb0b72da8521a5b1f2019afea0c993074d6b9c6
+commit-short: feb0b72
+branch: HEAD
+remote: https://github.com/openstack/charm-neutron-gateway
+info-generated: Tue May  2 18:14:23 UTC 2017
+note: This file should exist only in a built or released charm artifact (not in the charm source code tree).

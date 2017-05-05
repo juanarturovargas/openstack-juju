@@ -1,0 +1,6 @@
+commit-sha-1: 2790f81ecd32d9962617c4c3126621fffdc318a0
+commit-short: 2790f81
+branch: HEAD
+remote: https://github.com/openstack/charm-nova-compute
+info-generated: Tue May  2 18:21:21 UTC 2017
+note: This file should exist only in a built or released charm artifact (not in the charm source code tree).

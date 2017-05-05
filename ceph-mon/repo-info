@@ -1,0 +1,6 @@
+commit-sha-1: da81fae4a832f7c96a70187093eea42a969e3057
+commit-short: da81fae
+branch: HEAD
+remote: https://github.com/openstack/charm-ceph-mon
+info-generated: Tue May  2 18:23:21 UTC 2017
+note: This file should exist only in a built or released charm artifact (not in the charm source code tree).
